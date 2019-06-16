@@ -142,12 +142,13 @@ PSM7003을 동반되어 제시된 기판에 꼽은 후에  GND 에는 라즈베�
     | 14 | GPIO 14      |
     | 15 | 5V      |
     | 16 | GND      |
-  보다 정확한 정보를 위하여 참고한 유투브 링크를 남긴다: https://youtu.be/cVdSc8VYVBM 
+
+보다 정확한 정보를 위하여 참고한 유투브 링크를 남긴다: https://youtu.be/cVdSc8VYVBM 
 
 - 코드
 
   다음은 출력을 위한 기본적인 코드들이다.
-  
+
 ```python
       import lcd
 ```
