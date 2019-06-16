@@ -147,22 +147,22 @@ PSM7003을 동반되어 제시된 기판에 꼽은 후에  GND 에는 라즈베�
 - 코드
 
   다음은 출력을 위한 기본적인 코드들이다.
-
+  
 ```python
-  	import lcd
+      import lcd
 ```
 
   동영상에 첨부되어있는 lcd.py 코드를 바탕으로 import 해온다.
 
 
   ```python
-  	lcd.lcd_init()
+      lcd.lcd_init()
   ```
 
   lcd를 초기화 해주는 작업이다.
 
   ```python
-  lcd_byte(LCD_LINE_1, LCD_CMD)
+      lcd_byte(LCD_LINE_1, LCD_CMD)
   ```
  
 상간 줄과 하단 줄 중, 작성을 원하는 곳의 위치를 선언해준 후에
@@ -174,11 +174,11 @@ PSM7003을 동반되어 제시된 기판에 꼽은 후에  GND 에는 라즈베�
   입력하길 원하는 값을 작성해준다.
 
   ```python
-     lcd_byte(LCD_LINE_2, LCD_CMD) 
+      lcd_byte(LCD_LINE_2, LCD_CMD) 
   ```
 
   Line 2 로서, 위의 코드와 다르게 하단에 출력을 해준다.
 
   ```python
-     lcd_string("Humidity: ", 2)
+      lcd_string("Humidity: ", 2)
   ```
